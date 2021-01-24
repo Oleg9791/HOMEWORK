@@ -1,0 +1,23 @@
+.menu{
+	font:bold 15pt/1.5 sans-serif;
+	text-align:center;
+}
+
+
+
+.item:hover{
+	background:url(img/item_hover.png);
+}
+
+
+
+.item{
+	color:black;
+	border: 1px solid #333;
+	display: inline-block;
+	background:url(img/item.png);
+	width:280px;
+	height:90px;
+	line-height:100px;
+	
+}

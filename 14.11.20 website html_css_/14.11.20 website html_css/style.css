@@ -1,0 +1,81 @@
+.item {
+    background-image: url(img/unnamed.jpg);
+    width: 280px;
+    height: 93px;
+    display: inline-block;
+    border: rgb(22, 3, 3) 1px solid;
+    color: #ca134a;
+    line-height: 80px;
+}
+
+.menu {
+    font: bold 15pt sans-serif;
+    text-align: center;
+}
+
+.b {
+    font-style: italic;
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}
+
+.b1 {
+    font-size: 25px;
+}
+
+.b3 {
+    font-style: italic;
+    text-align: center;
+}
+
+@font-face {
+    font-family: Ruslan_Display;
+    src: url(Ruslan_Display/RuslanDisplay-Regular.ttf);
+}
+
+.i1 {
+    font-family: Ruslan_Display;
+    color: rgb(64, 110, 10);
+}
+
+.p2 {
+    font: bold 30pt italic;
+    text-align: center;
+    color: green;
+}
+
+i {
+    font-weight: 700;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: rgb(239, 243, 10);
+}
+
+p::before {
+    content: "🇧🇪 👜";
+}
+
+.p4::first-line {
+    font: 2em sans-serif;
+    color: rgb(226, 25, 166);
+}
+
+.s4 {
+    text-decoration: underline;
+    word-spacing: 0.5em;
+    color: rgb(223, 238, 20);
+}
+
+td {
+    padding: 15% 17% 15%;
+    border-color: rgb(100, 8, 23) green rgb(189, 12, 12) green;
+    border-style: solid;
+    border-width: 15px 10px 10px 15px;
+    width: 200px;
+}

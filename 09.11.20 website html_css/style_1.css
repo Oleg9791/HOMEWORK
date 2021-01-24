@@ -1,0 +1,41 @@
+.menu {
+    font: bold 16pt/1.5 sans-serif;
+    text-align: center;
+}
+
+.item {
+    color: rgb(226, 19, 36);
+    border: 1px solid #333;
+    display: inline-block;
+    background: url(img/unnamed.jpg);
+    width: 280px;
+    height: 90px;
+    line-height: 100px;
+}
+
+.Country {
+    font-style: italic;
+    color: rgb(36, 219, 12);
+    font-weight: 900;
+}
+
+a:hover {
+    color: rgb(229, 233, 14);
+}
+
+a:active {
+    color: rgb(15, 211, 25);
+}
+
+p::first-line {
+    font-size: 25px;
+}
+p::first-letter {
+    font-size: 1cm;
+}
+p::before {
+    content:"👜"
+}
+p::after{
+    content:"🏘"
+}

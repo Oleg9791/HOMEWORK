@@ -1,7 +1,7 @@
 <?php
 
 
-class Input
+class Input extends TagName
 {
     protected string $type;
     protected string $value;
@@ -39,9 +39,9 @@ class Input
 
     }
 
-    public function inp(): string
+    public function html(): string
     {
-        return "<input type='$this->type'  value='$this->value'  placeholder='$this->placeholder'>";
+        return "<input style='$this->style' class='$this->class' type='$this->type'  value='$this->value'  placeholder='$this->placeholder'>";
     }
 
 }

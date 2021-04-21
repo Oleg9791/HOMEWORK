@@ -1,7 +1,7 @@
 <?php
 
 
-class Br
+class Br extends TagName
 {
     protected string $innerText;
 
@@ -17,6 +17,6 @@ class Br
 
     public function html()
     {
-        return "<br>$this->innerText\n<br>\n<br>\n";
+        return "<br style='$this->style' class='$this->class'> $this->innerText\n<br>$this->innerText";
     }
 }

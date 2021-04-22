@@ -16,33 +16,6 @@ spl_autoload_register(function ($class) {
     include "Classes/$class.php";
 });
 
-$br = new Br();
-
-echo $br
-    ->setClass("table")
-    ->setStyle("color:red")
-    ->setInnerText("Hello!!!")
-    ->html();
-echo "<br><br>";
-
-$input = new Input();
-
-echo $input
-    ->setClass("form-control")
-    ->setStyle("color:red")
-    ->setPlaceholder("enter")
-    ->setValue("Ok")
-    ->setType("submit")
-    ->html();
-echo "<br>";
-$img = new Image();
-
-echo $img
-    ->setClass("rounded mx-auto d-block")
-    ->setStyle("border: 3px solid red")
-    ->setSrc("img.jpg")
-    ->html();
-echo "<br>";
 $h1 = new H1();
 echo $h1
     ->setInnerText("I want to learn to programming to work")

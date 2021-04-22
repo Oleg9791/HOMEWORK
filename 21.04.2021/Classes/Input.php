@@ -41,7 +41,7 @@ class Input extends TagName
 
     public function html(): string
     {
-        return "<input style='$this->style' class='$this->class' type='$this->type'  value='$this->value'  placeholder='$this->placeholder'>";
+        return "<input style='$this->style' class='$this->class' type='$this->type' value='$this->value' placeholder='$this->placeholder'>";
     }
 
 }

@@ -1,7 +1,7 @@
 <?php
 
 
-class Input extends TagName
+class Input extends UnTagPaired
 {
     protected string $type;
     protected string $value;

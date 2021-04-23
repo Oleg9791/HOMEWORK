@@ -1,7 +1,7 @@
 <?php
 
 
-class Image extends TagName
+class Image extends UnTagPaired
 {
     protected string $src;
 

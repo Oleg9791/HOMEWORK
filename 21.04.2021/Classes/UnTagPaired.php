@@ -1,14 +1,14 @@
 <?php
 
 
-abstract class TagName1
+abstract class UnTagPaired
 {
     protected string $style;
     protected string $class;
 
     /**
      * @param string $style
-     * @return TagName1
+     * @return TagPaired
      */
     public function setStyle(string $style): static
     {
@@ -18,7 +18,7 @@ abstract class TagName1
 
     /**
      * @param string $class
-     * @return TagName1
+     * @return TagPaired
      */
     public function setClass(string $class): static
     {

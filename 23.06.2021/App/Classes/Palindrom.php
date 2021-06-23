@@ -22,7 +22,7 @@ class Palindrom
 
     public function checkPolindrom()
     {
-        $row = preg_replace("/[.,!:-]+/ui", "", mb_strtolower(str_replace(" ", "", $this->str)));
+        $row = preg_replace("/[.,!:-]\s+/ui", "", mb_strtolower($this->str));
         echo $row;
         $reversStr = "";
 

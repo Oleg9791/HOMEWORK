@@ -20,7 +20,7 @@ class Polindrom
         $htmlArr = "";
         $html = strrev($this->str);
 
-        $htmlArr =preg_replace("/[.,!-?:]+\s+/uis","",str_split(strrev($this->str), 1)) ;
+        $htmlArr = preg_replace("/[.,!-?:]+\s+/uis", "", str_split(strrev($this->str), 1));
         $item = "";
 
         foreach ($htmlArr as $value) {
